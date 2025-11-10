@@ -24,3 +24,34 @@ Backend	Node.js, Express.js
 Database	MongoDB
 Realtime	Socket.IO
 Tools	Git, GitHub, VS Code
+
+Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/Sudeepsahu20/DevConnect.git
+cd DevConnect
+
+2️⃣ Install backend dependencies
+cd backend
+npm install
+
+3️⃣ Install frontend dependencies
+cd ../frontend
+npm install
+
+4️⃣ Create a .env file in backend
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+5️⃣ Run the app
+
+Start Backend:
+
+cd backend
+npm run dev
+
+
+Start Frontend:
+
+cd ../frontend
+npm start
